@@ -6,6 +6,8 @@
 class Death
 {
 public:
-	void if_someone_has_died(Living* rabbitarr[], Living* foxarr[], Living* grassarr[]); 
+	void fox_death(Fox* foxarr, int foxcount);
+	void rabbit_death(Rabbit* rabbitarr, int rabbitcount);
+	void if_someone_has_died(Rabbit* rabbitarr,int rabbitcount, Fox* foxarr,int foxcount, Grass* grassarr, int grasscount); 
 };
 
