@@ -5,6 +5,10 @@ int Grass::count = 0;
 Grass::Grass() :Living() {
 	count++;
 }
+Grass::~Grass()
+{
+	count--;
+}
 Grass::Grass(string _location) : Living(_location) {
 	count++;
 }

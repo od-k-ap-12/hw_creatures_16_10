@@ -5,6 +5,7 @@ class Grass:public Living
 	static int count;
 public:
 	Grass();
+	~Grass();
 	Grass(string _location);
 	virtual void Print();
 	static int GetCount();

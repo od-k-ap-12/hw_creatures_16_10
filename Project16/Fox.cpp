@@ -14,6 +14,10 @@ Fox::Fox():Living()
 		count++;
 	}
 }
+Fox::~Fox()
+{
+	count--;
+}
 Fox::Fox(int _age, string _location) :Living(_location)
 	{
 		if (count >= 5) {

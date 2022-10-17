@@ -7,6 +7,10 @@ Rabbit::Rabbit():Living()
 	agecap = 9;
 	count++;
 }
+Rabbit::~Rabbit()
+{
+	count--;
+}
 Rabbit::Rabbit(int _age, string _location):Living(_location)
 {
 	age = _age;

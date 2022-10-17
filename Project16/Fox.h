@@ -7,6 +7,7 @@ class Fox:public Living
 	static int count;
 public:
 	Fox();
+	~Fox();
 	Fox(int _age,string _location);
 	virtual void Print();
 	static int GetCount();

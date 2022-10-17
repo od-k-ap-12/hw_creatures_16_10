@@ -7,6 +7,7 @@ class Rabbit :public Living
 	static int count;
 public:
 	Rabbit();
+	~Rabbit();
 	Rabbit(int _age, string _location); 
 	virtual void Print();
 	static void SetCount(int _count);
